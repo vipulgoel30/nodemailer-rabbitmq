@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+  </head>
+
+  <body
+    style="
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
+        'Open Sans', 'Helvetica Neue', sans-serif;
+      color: hsl(0, 0%, 20%);
+    ">
+    <img src="cid:logo@cloudo.com" style="width: 8rem; display: block; margin: 1rem auto; padding: 0.6rem" />
+    <div style="max-width: 40rem; width: 80%; margin: 2rem auto; text-align: center">
+      <h2>Welcome to Cloudo, {NAME}</h2>
+      <p style="font-size: 1rem; line-height: 25px; margin: 2rem 0">
+        To complete your Cloudo sign-up, we kindly request that you verify your email using the link provided in this
+        email for added security. The link is valid only for 180 minutes.
+      </p>
+      <a
+        href="{LINK}"
+        style="
+          display: block;
+          letter-spacing: 0.15rem;
+          text-decoration: none;
+          background-color: #009dda;
+          padding: 0.5rem;
+          color: white;
+          border-radius: 0.5rem;
+          font-size: 1.1rem;
+          font-weight: 400;
+        "
+        >Confirm Email</a
+      ><br />
+      <hr style="background-color: grey; height: 0.1rem" />
+      <p style="text-align: left; color: grey; font-size: 1.1rem">
+        In case the link has expired! Send the request to resend verification mail using the
+        <a href="{RESEND_LINK}" style="color: #009dda">link</a>
+      </p>
+    </div>
+  </body>
+</html>

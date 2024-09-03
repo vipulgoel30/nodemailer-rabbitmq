@@ -1,0 +1,24 @@
+{
+  "name": "nodemailer-rabbitmq",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx --env-file=.env index.js",
+    "build": "tsc",
+    "deploy": "tsx"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.10.4",
+    "nodemailer": "^6.9.14"
+  },
+  "devDependencies": {
+    "dotenv": "^16.4.5",
+    "dotenv-expand": "^11.0.6",
+    "nodemon": "^3.1.4"
+  }
+}
