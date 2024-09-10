@@ -1,4 +1,9 @@
 .env
 node_modules
-
+dist
 env
+uploads
+
+assets/*.png
+assets/*.jpg
+assets/*.jpeg

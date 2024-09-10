@@ -8,6 +8,7 @@
     "allowSyntheticDefaultImports": true,
     "outDir": "./dist",
     "rootDir": "./src",
+    "skipLibCheck": true,
     "strict": true
   },
   "exclude": ["./env/generateEnv.ts"]
